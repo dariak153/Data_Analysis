@@ -1,7 +1,5 @@
 # Market Data Analysis
 
-This Shiny application provides a comprehensive dashboard for analyzing market data, visualizing trends, and understanding customer behavior. 
-
 ### Dashboard Overview
 ![Dashboard Overview](dashboard_shiny.png)
 
