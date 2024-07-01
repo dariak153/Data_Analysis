@@ -6,17 +6,18 @@
 ### Geographic Distribution
 ![Geographic Distribution](map_shiny.png)
 
-### Age Distribution
-![Age Distribution](age.png)
+### Demand Analysis
+![Demand Analysis](demand.png)
 
 ### Restaurant Locations
 ![Restaurant Locations](restaurants_locations.png)
 
-### Demand Analysis
-![Demand Analysis](demand.png)
-
 ### Top Restaurants
 ![Top Restaurants](top_restaurants.png)
+
+
+### Age Distribution
+![Age Distribution](age.png)
 
 ## Features
 
