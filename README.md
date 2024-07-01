@@ -6,6 +6,18 @@
 ### Geographic Distribution
 ![Geographic Distribution](map_shiny.png)
 
+### Age Distribution
+![Age Distribution](age.png)
+
+### Restaurant Locations
+![Restaurant Locations](restaurants_locations.png)
+
+### Demand Analysis
+![Demand Analysis](demand.png)
+
+### Top Restaurants
+![Top Restaurants](top_restaurants.png)
+
 ## Features
 
 - **Data Upload**: Upload your own CSV files to analyze custom datasets.
@@ -19,8 +31,7 @@
 - **Data Table**: Interactive table to view and filter detailed data.
 - **Email Notifications**: Send email notifications with data updates or reports.
 
-
- The following R packages must be installed:
+The following R packages must be installed:
 
 ```r
 install.packages(c("shiny", "ggplot2", "plotly", "dplyr", "readr", "leaflet", "sf", "rnaturalearth", "rnaturalearthdata", "lubridate", "tidyr", "shiny.fluent", "imola", "DT", "fontawesome", "blastula"))
