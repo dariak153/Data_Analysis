@@ -22,7 +22,7 @@ library(blastula)
 
 
 color_palette <- c("#1E90FF", "#00008B", "#00FFFF", "#8A2BE2", "#7B68EE", "#00FF7F", "#2E8B57")
-kpi_color <- "#1E90FF" # Update button color
+kpi_color <- "#1E90FF" 
 
 # Header
 header_commandbar_list <- list(
@@ -273,14 +273,13 @@ ui <- gridPage(
   footer = app_footer
 )
 
-# Define server logic
 server <- function(input, output, session) {
   data <- reactive({
     req(input$file1)
     df <- read_csv(input$file1$datapath, col_types = cols(Dt_Customer = col_date(format = "%Y-%m-%d")))
     df <- df %>% mutate(Age = 2024 - Year_Birth)
     
-    # Create age groups
+    
     df <- df %>% mutate(Age_Group = case_when(
       Age < 30 ~ "Under 30",
       Age >= 30 & Age <= 40 ~ "30-40",
@@ -471,7 +470,7 @@ server <- function(input, output, session) {
     world$values <- world$n
     world$values[is.na(world$values)] <- 0
     
-    # Define blue color palette
+    
     blue_palette <- colorNumeric(palette = c("#E0F7FA", "#039BE5", "#01579B"), domain = world$values)
     
     leaflet(world) %>%
