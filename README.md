@@ -6,6 +6,12 @@
 ### Geographic Distribution
 ![Geographic Distribution](map_shiny.png)
 
+### Video 
+
+<video width="320" height="240" controls>
+  <source src="app_presentation.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ### Demand Analysis
 ![Demand Analysis](demand.png)
 
