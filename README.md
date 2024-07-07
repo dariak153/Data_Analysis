@@ -7,11 +7,10 @@
 ![Geographic Distribution](map_shiny.png)
 
 ### Video 
+![video](https://github.com/dariak153/Market_Data_Analysis/blob/main/app_presentation.gif)
 
-<video width="320" height="240" controls>
-  <source src="app_presentation.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![video2](https://github.com/dariak153/Market_Data_Analysis/blob/main/map_presentation.gif)
+
 ### Demand Analysis
 ![Demand Analysis](demand.png)
 
