@@ -6,10 +6,6 @@
 ### Geographic Distribution
 ![Geographic Distribution](map_shiny.png)
 
-### Video 
-![video](https://github.com/dariak153/Market_Data_Analysis/blob/main/app_presentation.gif)
-
-![video2](https://github.com/dariak153/Market_Data_Analysis/blob/main/map_presentation.gif)
 
 ### Demand Analysis
 ![Demand Analysis](demand.png)
