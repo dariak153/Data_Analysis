@@ -9,7 +9,7 @@ library(lubridate)
 library(shinyWidgets)
 library(shinyjs)
 
-# UI for the application
+
 dashboard_ui <- dashboardPage(
   dashboardHeader(
     title = "Space Missions Analysis",
@@ -461,7 +461,6 @@ login_server <- function(input, output, session) {
   })
 }
 
-# Combine the UI and server logic for login and main application
 ui_combined <- fluidPage(
   shinyjs::useShinyjs(),
   div(id = "login-page", login_ui),
@@ -478,7 +477,6 @@ server_combined <- function(input, output, session) {
   })
 }
 
-# Run the application 
 shinyApp(ui = ui_combined, server = server_combined)
 
     
