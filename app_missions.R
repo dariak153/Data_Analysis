@@ -8,7 +8,6 @@ library(plotly)
 library(lubridate)
 library(shinyjs)
 
-# UI for the login page
 login_ui <- fluidPage(
   useShinyjs(),
   tags$head(
@@ -365,14 +364,13 @@ server <- function(input, output, session) {
   ), extensions = 'Buttons')
 }
 
-# Combine the UI and server logic for login and main application
 ui_combined <- fluidPage(
   useShinyjs(),
   div(id = "login-page", login_ui),
   shinyjs::hidden(div(id = "dashboard-page", dashboard_ui))
 )
 
-# Run the application 
+
 shinyApp(ui = ui_combined, server = server)
 
     
