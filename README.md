@@ -23,7 +23,6 @@
 ### Age Distribution
 ![Age Distribution](age.png)
 
-## Features First Project
 
 - **Data Upload**: Upload your own CSV files to analyze custom datasets.
 - **Filters**: Filter data by sector, event type, age group, and date range.
@@ -34,9 +33,9 @@
   - **Line Charts**: Trends in sales and customer growth over time.
   - **Map**: Geographic distribution of customers.
 - **Data Table**: Interactive table to view and filter detailed data.
-- **Email Notifications**: Send email notifications with data updates or reports.
+
   
-  # Second Project
+
   This Shiny app provides an interactive dashboard for visualizing restaurant data. 
 
 1. **Highest Rated Restaurants**
